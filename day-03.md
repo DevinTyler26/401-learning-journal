@@ -3,7 +3,7 @@ npm i -D babel-eslint babel-preset-env babel-register dotenv eslint eslint-confi
 
 copy package.json from day 2 and then do "npm i" this will download all of the dependencies needed in your package.json
 
-##Error first
+##error first
 to have successful callback make sure you put undefined (null) as first argument in your callback. data will be second arg
 
 ##fs
@@ -19,3 +19,12 @@ callback hell - nested callbacks to make your files comeback in the the order yo
 testing will have the expect statement inside of the callback statement of the test
 expect(err).toBeNull();
 test.skip will skip a test
+test.only will only run that one test
+
+##lab
+paths is an array or 3 files FOR LAB
+
+#whiteboarding
+an array of arrays
+big array at 0
+bigArray[3][2]
