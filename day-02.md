@@ -1,5 +1,7 @@
 ##NPM - copy paste to save time! Thank you past Devin
-npm i -D babel-eslint babel-preset-env babel-register dotenv eslint eslint-config-airbnb-base eslint-plugin-import eslint-plugin-jest eslint-plugin-react jest
+npm i -D babel-eslint babel-preset-env babel-register dotenv eslint eslint-config-airbnb-base eslint-plugin-import eslint-plugin-jest eslint-plugin-react jest winston@next
+
+copy package.json from day 2 and then do "npm i" this will download all of the dependencies needed in your package.json
 
 ##Setting up Travis CI
 github fork 
