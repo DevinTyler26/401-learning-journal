@@ -17,7 +17,7 @@
 * read the net docs on nodejs.org
 * cant define 'close', 'connect', 'drain', 'end', 'data', because they are already defined
 
-# for lab #
+# for lab 
 * FIRST TYPE OUT THE SERVER.ON and SERVER.LISTEN
 * npm start - starts run script from package.json
 * terminal: nc localhost 3000
@@ -25,10 +25,11 @@
 * uuid/v4
 * client can be the same as a socket (plug)
 * always start on a new line \n
+* for documentation - write what to do, starting at brew install netcat
+* set socketPool to clientPool
 
 
-# dont forget #
+# dont forget 
 * nodemon index.js
 * ipconfig shows IP address
 * logger.js will be in the lib folder
-* for documentation - write what to do, starting at brew install netcat
