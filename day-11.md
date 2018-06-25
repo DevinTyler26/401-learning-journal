@@ -15,4 +15,10 @@
 - have a jest in your package.json file
 - Car.remove({}) passing in {} removes all objects 
 - superagent calls are promises - so you can use a .then() after them
-- 
+- comment out afterEach Car.remove({}) to see whats in the GUI after some tests
+- JSON parser is only used fir PUT or POST
+- response.status.(400).send('string') OR response.sendStatus(400);
+- Cars.init() needs to be on PUT and POST requests then you can put a .then() to run more functionality
+- every property that is flagged unique gets auto indexed by mongoose
+- don't forget to turn on mongo server
+- remember to string the ID because the ID from mongo is an object
