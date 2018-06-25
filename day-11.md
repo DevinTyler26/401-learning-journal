@@ -22,3 +22,4 @@
 - every property that is flagged unique gets auto indexed by mongoose
 - don't forget to turn on mongo server
 - remember to string the ID because the ID from mongo is an object
+- look at mongoose docs for DELETE
