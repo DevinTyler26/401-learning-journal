@@ -45,8 +45,19 @@ mockdata = {
         last: name,
         _id: 3252354236,
         classRoomId: 12534,
-    }
+    },
+    student: {
+        first: name,
+        last: name,
+        _id: 325643643,
+        classRoomId: 12534,
+    },
 }
 ```
 - superagent POST will be followed by a .send(mockData)
+- classRoom.js model within student array {type: mongoose.Schema.Types.ObjectId, ref: 'students'}
+- can use enum in objects for a list to choose for
+- , {timestamps: true});
+- findByIdandRemove does not work in this post hook
+- invoke the functions in ``` app.use(cors()) ``` or else server will hang
 - 
