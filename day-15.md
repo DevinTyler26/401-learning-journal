@@ -1,4 +1,11 @@
 ## trees
-- pre: visit - left - right
-- post: left - right - visit
-- in: left - visit - right
+- pre order visit: visit(root) - left - right
+- post order visit: left - right - visit(root)
+- in order visit: left - visit(root) - right
+
+## binary search trees
+- \< root goes on left
+- \> root goes on right
+- = root goes on left
+- usually O(log n)
+- 
