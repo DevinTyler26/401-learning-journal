@@ -14,9 +14,8 @@
     2 3 4
      /|\
     5 6 7
-     /
-    8 
-```
+      |
+      8
+ ```
 - time: O(n)
 - space: O(w) -> w is the width of the tree
-- 
